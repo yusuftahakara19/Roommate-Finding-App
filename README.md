@@ -8,8 +8,8 @@ Database: <em><strong>Firebase</strong></em> <br>
 minSdk:<em><strong> 24</strong></em> <br>
 targetSdk:<em><strong> 33</strong></em> <br>
     
-![dogrulama](https://github.com/yusuftahakara19/Ogrenci-Ev-Arkadasi-Eslestirme-Bulma-Uygulamasi/assets/119736588/cd672467-8e00-4bfa-8285-f763bfd172a2)
-Kayıt Doğrulama
+![dogrulama](https://github.com/yusuftahakara19/Ogrenci-Ev-Arkadasi-Eslestirme-Bulma-Uygulamasi/assets/119736588/cd672467-8e00-4bfa-8285-f763bfd172a2) <br>
+Kayıt Doğrulama <br>
 ![giris](https://github.com/yusuftahakara19/Ogrenci-Ev-Arkadasi-Eslestirme-Bulma-Uygulamasi/assets/119736588/981efba1-1cca-443f-8b9d-b7c4981671a6)
 Giriş
 ![anasayfa](https://github.com/yusuftahakara19/Ogrenci-Ev-Arkadasi-Eslestirme-Bulma-Uygulamasi/assets/119736588/e3d6cc70-2b9d-4dcb-bf5b-661150a87b99)
