@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_profile_photo"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                />
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-posta"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Şifre"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ad"
+                android:inputType="text"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/et_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soyad"
+                android:inputType="text"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/egitimBilgileri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bölüm / Sınıf"
+                android:minHeight="48dp"
+                />
+            <EditText
+                android:id="@+id/kampuseIstenenEvUzakligi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kampüse İstenen Ev Uzaklığı(km)"
+                android:minHeight="48dp"
+                android:inputType="number"
+                />
+            <EditText
+                android:id="@+id/evdeKalacagiSure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Evde/Odada Kalacağınız Süre(saat)"
+                android:minHeight="48dp"
+                android:inputType="number"
+                />
+
+
+            <EditText
+                android:id="@+id/telefon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefon Numarası"
+                android:inputType="phone"
+                android:minHeight="48dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Durum"
+                    android:textSize="16sp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioOption1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kalacak Ev/Oda arıyor" />
+
+                <RadioButton
+                    android:id="@+id/radioOption2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ev/Oda arkadaşı arıyor" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Kayıt Ol" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

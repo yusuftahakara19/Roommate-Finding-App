@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/appTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Öğrenci Ev Arkadaşı Eşleştirme/Bulma Uygulaması"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appTitleTextView"
+        android:layout_margin="16dp"
+        android:hint="E-posta"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditText"
+        android:layout_margin="16dp"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        />
+
+    <CheckBox
+        android:id="@+id/showPasswordCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="16dp"
+        android:text="Şifreyi Göster" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showPasswordCheckBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Giriş Yap"
+
+        />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Kayıt Ol" />
+
+</RelativeLayout>

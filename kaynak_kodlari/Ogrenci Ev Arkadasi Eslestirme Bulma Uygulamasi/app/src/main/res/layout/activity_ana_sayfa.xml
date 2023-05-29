@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImageView"
+        android:layout_marginTop="32dp"
+        android:text="Hoş Geldiniz"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeTextView"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/mapSearchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_margin="10dp"
+        android:text="Harita ile Arama"
+
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/eslesmeTalepleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mapSearchButton"
+        android:layout_margin="10dp"
+        android:text="Eşleşme Talepleri"
+
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/listUsersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eslesmeTalepleri"
+        android:layout_margin="10dp"
+        android:text="Kullanıcıları Listele"
+
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listUsersButton"
+        android:layout_margin="10dp"
+        android:text="Ayarlar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

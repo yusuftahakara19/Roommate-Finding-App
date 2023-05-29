@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <EditText
+        android:id="@+id/distanceEditText"
+        android:layout_alignTop="@+id/mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:hint="Kaç km içindeki kişileri görmek istiyorsunuz?"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+
+</RelativeLayout>

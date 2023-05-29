@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800517395984",
+    "project_id": "evarkadasibulma-cc535",
+    "storage_bucket": "evarkadasibulma-cc535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800517395984:android:e5b1ea699e35d8fd441c95",
+        "android_client_info": {
+          "package_name": "com.yusuf.ogrencievarkadasieslestirmebulmauygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800517395984-e5bsj5j6r3085m03g18ghn9autnbvs3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2ftffzPXdnsqoyQbqLPpdzvzfHXWtY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800517395984-e5bsj5j6r3085m03g18ghn9autnbvs3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

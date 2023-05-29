@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="my_dimension">16dp</dimen>
+</resources>
