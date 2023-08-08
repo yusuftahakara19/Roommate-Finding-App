@@ -1,4 +1,4 @@
-# Ogrenci-Ev-Arkadasi-Eslestirme-Bulma-Uygulamasi
+# Roommate Finding App
 
  <hr>
 <h2> Used Technologies </h2>
